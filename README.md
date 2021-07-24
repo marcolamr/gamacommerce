@@ -1,46 +1,44 @@
-# Getting Started with Create React App
+# Gama.Commerce
+## _Desafio 2 do Hiring Coders #2 Gama Academy e Vtex_
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto prático de simulação de um "e-commerce" com os dados sendo salvos e manipulados via localStorage. Como desafio adicional, criei a api no [Mockaroo](https://my.api.mockaroo.com/products.json?key=cbf56870) e consumi utilizando o pacote [Axios](https://www.npmjs.com/package/axios).
 
-## Available Scripts
+- Wireframe no Adobe XD
+- React, Axios e Styled Components
+- ✨ Hooks (useState e useEffect) ✨
 
-In the project directory, you can run:
+## Features
+
+- Cards carregam dados da API (axios/mockaroo)
+- Captura de lead (newsletter) na home com dados salvos em localStorage
+- Duas rotas de navegação (Home e Checkout)
+- Cadastro de dados pessoais e de endereço na página Checkout com dados salvos em localStorage
+- Validação de produto adicionado na rota de Checkout, redirecionando para a Home caso não existam dados. Após a finalização do "pedido", uma mensagem de sucesso é exibida utilizando conceito de renderização condicional do React
+
+Apesar de ser um projeto simples, mostrou-se muito desafiador e aprendi bastante durante o desenvolvimento. Pelo prazo, não consegui elaborar as mensagens de feedback, nem o ajuste de css para os breakpoints de tablet e mobile. Mas quero evoluir para uma segunda versão em breve e melhorar o projeto como um todo.
+
+# Create React App / Template Typescript
+
+O projeto foi criado com [Create React App](https://github.com/facebook/create-react-app) utilizando a flag `--template=typescript`.
+
+## Scripts
+
+No diretório do projeto, você pode executar:
 
 ### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Executa o aplicativo no modo de desenvolvimento. \
+Abra [http: // localhost: 3000] (http: // localhost: 3000) para visualizá-lo no navegador.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A página será recarregada se você fizer edições. \
+Você também verá quaisquer erros de lint no console.
 
 ### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Compila o aplicativo para produção na pasta `build`. \
+Ele agrupa corretamente o React no modo de produção e otimiza a construção para o melhor desempenho.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+A compilação é reduzida e os nomes dos arquivos incluem os hashes. \
+Seu aplicativo está pronto para deploy!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Consulte a seção sobre [deployment](https://facebook.github.io/create-react-app/docs/deployment) para obter mais informações.
