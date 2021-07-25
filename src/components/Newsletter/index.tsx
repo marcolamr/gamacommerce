@@ -15,8 +15,8 @@ function Newsletter(){
   
   return( 
     <Section> 
-      <h3>Newsletter Signup</h3>
-      <p>Subscribe to our newsletter and get 10% off your first purchase</p>
+      <h3>Newsletter</h3>
+      <p>Assine nossa newsletter e ganhe 10% off em sua primeira compra</p>
       <div>
         <input type="email" id="email" placeholder="Digite seu melhor e-mail" value={email} onChange={handleEmailChange} autoComplete="username" inputMode="email" />
         <button onClick={handleSubmit}>CADASTRAR</button>
